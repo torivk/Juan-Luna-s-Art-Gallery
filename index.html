@@ -14,8 +14,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
   </style>
   <link rel="stylesheet" href="css/styles.css">
-
-
 </head>
 
 <body style="font-family: Jacques Francois">
@@ -30,20 +28,34 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a href="#home-section">Home</a></li>
-            <li class="nav-item"><a href="#about-section">About</a></li>
-            <li class="nav-item"><a href="#portfolio-section" rel="noopener">Portfolio</a></li>
-            <li class="nav-item"><a href="#contact-section">Contacts</a></li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#home-section">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about-section">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a id="artworks-dropdown" class="nav-link active dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Artworks</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#artworks-section-1"
+                    style="color: rgb(94, 93, 93); background-color: white;">Famous Artworks</a></li>
+                <li><a class="dropdown-item" href="#artworks-section-2"
+                    style="color: rgb(94, 93, 93); background-color: white;">More Artworks</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link active" href="#locations-section">Locations</a>
+            </li>
           </ul>
         </div>
+      </nav>
     </div>
-    </nav>
   </header>
-
   <!--HOME SECTION-->
   <section id="home-section">
     <div class="home">
       <h1 class="home-heading">Gallery of Juan Luna</h1>
+      <h4 class="home-quote"><strong>"...freedom of thought... the foremost liberty, if not the only one that man possesses."</strong><br><span class="home-quote-span">-Juan Luna y Novicio</span></h4>
       <img class="home-image-1" src="images/portrait-of-a-lady.png" class="img-fluid" alt="home 1st image">
       <img class="home-image-2" src="images/indio-bravo.webp" class="img-fluid" alt="home 2nd image">
       <img class="home-image-3" src="images/la-burla.jpg" alt="home 3rd image">
@@ -55,19 +67,86 @@
       <h2 class="about-heading">Who is he?</h2>
       <img class="about-image-1" src="images/juan-luna-portrait.png" class="image-fluid" loading="lazy"
         alt="juan-luna-portrait">
-        <p class="about-paragraph-1"><span class="about-paragraph-1-span">Juan Luna de San Pedro y Novicio Ancheta</span> was a Filipino painter, sculptor and a political activist of the Philippine Revolution during the late 19th century. He became one of the first recognized Philippine artists.</p>
+      <p class="about-paragraph-1"><span class="about-paragraph-1-span">Juan Luna de San Pedro y Novicio Ancheta</span>
+        was a Filipino painter, sculptor and a political activist of the Philippine Revolution during the late 19th
+        century. He became one of the first recognized Philippine artists.</p>
       <div class="vl"></div>
-      <img class="about-image-2" src="images/juan-luna-paz.jpg" loading="lazy" class="image-fluid" alt="juan and paz marriage">
-      <p class="about-paragraph-2">On December 4, 1886, Luna married <span class="about-paragraph-2-span">María de la Paz Pardo de Tavera</span>, a sister of his friends Félix and Trinidad Pardo de Tavera. She was the prized daughter of a very tight-knit, very wealthy political family in self-exile from the Philippines; the Pardo de Taveras, Filipinos of Spanish nobility. </p>
+      <img class="about-image-2" src="images/juan-luna-paz.jpg" loading="lazy" class="image-fluid"
+        alt="juan and paz marriage">
+      <p class="about-paragraph-2">On December 4, 1886, Luna married <span class="about-paragraph-2-span">María de la
+          Paz Pardo de Tavera</span>, a sister of his friends Félix and Trinidad Pardo de Tavera. She was the prized
+        daughter of a very tight-knit, very wealthy political family in self-exile from the Philippines; the Pardo de
+        Taveras, Filipinos of Spanish nobility. </p>
       <div class="vl vl-2"></div>
       <img class="about-image-3" src="images/juan-luna-murder.webp" loading="lazy" class="image-fluid" alt="Paz death">
-      <p class="about-paragraph-3">In 1892, Juan Luna, famous Filipino painter of 400 masterpieces, was involved in a bloody murder at their Paris home. The victims? His wife, Paz, and Paz's mother, Juliana.</p>
-      
-      <hr>
-      
-      <img class="about-image-4" src="images/juanluna-joserizal-valentinventura.png" loading="lazy" class="image-fluid" alt="los indios bravos">
-      <p class="about-paragraph-4">The famous <span class="about-paragraph-4-span">Los Indios Bravos</span> photograph of Luna, Jose Rizal and Valentin Ventura in Paris. The lady in the background, sitting by the steps, holding a child, is Paz. Some historians say the woman’s place in this photo reflects her place in the marriage. The photo would usually come out in publications with Paz cropped out.</p>
+      <p class="about-paragraph-3">In 1892, Juan Luna, famous Filipino painter of 400 masterpieces, was involved in a
+        bloody murder at their Paris home. The victims? His wife, Paz, and Paz's mother, Juliana.</p>
     </div>
+  </section>
+  <!--ARTWORKS SECTION 1-->
+  <section id="artworks-section-1">
+    <div id="artworks" class="artworks-carousel carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#artworks" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#artworks" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#artworks" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="artworks-image-1" src="images/hymen o hymenee.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="artworks-title-1">Hymen, oh Hyménée!</h5>
+            <p class="artworks-paragraph-1">also known as <span class="artworks-paragraph-1-span">Boda Romana</span>, is
+              a painting by Filipino painter Juan Luna. Luna, working on canvas, started in 1886 and later completed in
+              1887 during the artist's honeymoon in Venice after his wedding to Paz Pardo de Tavera. The painting was
+              submitted by Luna to the Exposition Universelle in 1889 in Paris, France, where it garnered a bronze
+              medal. The picture recreates a scene of a Roman wedding ritual specifically the bride's entrance into the
+              groom's home. This painting of Juan Luna was lost long time ago and have been found just now.</p>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id="artworks-image-2" src="images/spolarium.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="artworks-title-2">Spoliarium, 1884</h5>
+            <p class="artworks-paragraph-2">Spoliarium depicts bloody carcasses of slave gladiators being dragged away
+              from the arena where they had entertained their Roman masters, with their lives. The painting was
+              submitted by Luna to the Exposición Nacional de Bellas Artes in 1884 in Madrid, where it garnered the
+              first gold medal. In 1886, it was sold to the Diputación Provincial de Barcelona for 20,000 pesetas. It
+              currently hangs in the main gallery at the ground floor of the National Museum of the Philippines, and is
+              the first work of art that greets visitors upon entry into the museum.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id=artworks-image-3 src="images/odalisque.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="artworks-title-3">Odalisque, 1885</h5>
+            <p class="artworks-paragraph-3">The Odalisque is one of Luna's <span
+                class="artworks-paragraph-3-span">"Academic Salon portraits"</span> that followed the
+              standards of proper proportion and perspective, and realistic depictions with “an air of dignity and
+              allure”. Although less polished compared to Luna’s other works of art, the Odalisque is typical of the
+              well-planned characteristic of the artist’s portraits. The Odalisque is one of the paintings that made
+              Luna as an officially accepted artist at the Salon of Paris. The Odalisque was a part of the painting
+              collection of Philippine national hero Jose Rizal.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#artworks" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#artworks" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--ARTWORKS SECTION 2-->
+  <section>
+     <div class="artworks-2">
+
+     </div>
   </section>
   <footer>
 

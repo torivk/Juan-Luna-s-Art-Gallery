@@ -16,11 +16,6 @@ a {
     text-decoration: none;
 }
 
-/* .navbar-nav a {
-    color: rgb(216, 213, 213);
-    font-size: 15px;
-    margin-left: 25%;
-} */
 .header__nav {
     display: flex;
     align-items: center;
@@ -28,23 +23,12 @@ a {
     padding: 3% 7%;
 }
 
-.header__brand {
-    color: white;
-    font-size: 40px;
-    font-weight: 700;
-}
-
 .header__nav ul li {
     display: inline-block;
     margin: 10px 20px;
+    margin-top: 5%;
 }
-
-.header__nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
+/* HOME SECTION */
 .home {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -57,16 +41,25 @@ a {
     width: 250px;
     text-align: center;
     margin-left: 9%;
-    margin-top: 10%;
+    margin-top: 2%;
 }
-
+.home-quote{
+    color: white;
+    position: absolute;
+    width: 300px;
+    font-size: 17px;
+    text-align: right;
+    margin-top: 12%;
+    margin-left: 7%;
+}
+.home-quote-span{
+    font-size: 15px;
+}
 .home-image-1 {
     height: 440px;
     width: 353px;
     margin-top: 54%;
     margin-left: 18%;
-    /* margin-bottom: 40%; */
-    /* position: inherit; */
     display: block;
     object-fit: cover;
 }
@@ -90,6 +83,7 @@ a {
 }
 
 /*END OF HOME SECTION*/
+/* ABOUT */
 .about {
     display: flex;
 }
@@ -98,7 +92,7 @@ a {
     color: white;
     margin-left: 8%;
     position: absolute;
-    margin-top: 3%;
+    margin-top: 9%;
     font-size: 35px;
 }
 
@@ -107,7 +101,7 @@ a {
     width: 200px;
     height: 240px;
     margin-left: 7%;
-    margin-top: 7%;
+    margin-top: 14%;
     position: absolute;
 }
 
@@ -115,44 +109,40 @@ a {
     color: white;
     width: 300px;
     text-align: center;
-    margin-top: 24%;
+    margin-top: 32%;
     margin-left: 4%;
 }
 
 .vl {
     border-left: 3px solid grey;
-    height: 500px;
+    height: 705px;
     margin-left: 2%;
-    margin-top: 2%;
 }
 
 .about-image-2 {
     position: absolute;
     margin-left: 27%;
     width: 267px;
-    /* height: 443px; */
-    margin-top: 7%;
+    margin-top: 12%;
 }
 
 .about-paragraph-2 {
     color: white;
-    /* position: absolute; */
     width: 250px;
     margin-left: 20%;
     text-align: left;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .vl-2 {
     border-left: 3px solid grey;
-    height: 500px;
+    height: 705px;
     margin-left: 1%;
-    margin-top: 2%;
 }
 
 .about-image-3 {
     position: absolute;
-    margin-top: 5%;
+    margin-top: 11%;
     width: 267px;
     margin-left: 65%;
 }
@@ -163,41 +153,83 @@ a {
     width: 240px;
     text-align: left;
     margin-left: 84%;
-    margin-top: 13%;
+    margin-top: 18%;
 }
 
-hr {
-    border-top: 3px solid white;
-    width: 1300px;
-    position: absolute;
-    margin-left: 7%;
-    margin-top: 36%;
+.about-paragraph-1-span {
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.about-image-4 {
-    position: absolute;
-    margin-top: 38%;
-    margin-left: 15%;
-    margin-bottom: 5%;
-    width: 500px;
-}
-.about-paragraph-4{
-    position: absolute;
-    color: white;
-    width: 500px;
-    text-align: left;
-    margin-top: 48%;
-    margin-left: 50%;
-}
-.about-paragraph-1-span{
+.about-paragraph-2-span {
     font-size: 20px;
     font-weight: 700;
 }
-.about-paragraph-2-span{
+
+/* END OF ABOUT SECTION */
+/* ARTWORKS SECTION */
+.artworks{
+    display: flex;
+}
+.artworks-carousel{
+    width: 1450px;
+    margin-left: 2%;
+}
+.artworks-title-1{
+    background-color: rgba(255, 255, 255, 0.281);
+    text-align: center;
+    width: 300px;
+    color: black;
+    margin: auto;
+    border-radius: 8px;
+    font-size: 28px;
+}
+.artworks-paragraph-1{
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.281); 
+    border-radius: 10px;
+    font-size: 16px;
+}
+.artworks-paragraph-1-span{
     font-size: 20px;
     font-weight: 700;
 }
-.about-paragraph-4-span{
+.artworks-paragraph-3-span{
     font-size: 20px;
     font-weight: 700;
+}
+.artworks-title-2{
+    background-color: rgba(255, 255, 255, 0.407);
+    text-align: center;
+    width: 250px;
+    color: black;
+    margin: auto;
+    border-radius: 8px;
+    font-size: 28px;
+    
+}
+.artworks-paragraph-2{
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.407); 
+    border-radius: 10px;
+    font-size: 16px;
+}
+.artworks-title-3{
+    background-color: rgba(255, 255, 255, 0.634);
+    text-align: center;
+    width: 250px;
+    color: black;
+    margin: auto;
+    border-radius: 8px;
+    font-size: 28px;
+    
+}
+.artworks-paragraph-3{
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.634); 
+    border-radius: 10px;
+    font-size: 16px;
 }
