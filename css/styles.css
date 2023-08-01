@@ -57,6 +57,7 @@ a {
 
 .home-quote-span {
     font-size: 15px;
+    color: rgb(232, 228, 228);
 }
 
 .home-image-1 {
@@ -248,6 +249,9 @@ a {
 }
 
 /*END OF ARTWORKS SECTION 1*/
+.artworks-2{
+    display: flex;
+}
 .artworks-4 {
     position: absolute;
     width: 305px;
@@ -383,6 +387,7 @@ a {
     margin-left: 66%;
     margin-top: 25%;
     padding-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .artworks-image-7{
@@ -427,6 +432,7 @@ a {
     margin-left: 30%;
     margin-top: 23%;
     padding-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .artworks-image-8{
@@ -471,6 +477,7 @@ a {
     margin-left: 4%;
     margin-top: 29%;
     padding-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .artworks-image-9{
@@ -508,4 +515,26 @@ a {
     border-radius: 10px;
     width: 180px;
     text-align: right;
+}
+/*END OF ARTWORKS SECTION*/
+/*LOCATIONS SECTION*/
+.locations{
+    display:flex;
+}
+.locations-heading{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 47%;
+}
+.locations-heading-2{
+    color: white;
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 37%;
+    text-align: center;
+}
+.card{
+    margin-top: 60%;
 }
