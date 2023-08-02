@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     --background-overlay: rgba(36, 35, 35, 0.376)
 }
@@ -43,8 +42,10 @@ a {
     text-align: center;
     margin-left: 9%;
     margin-top: 2%;
+    animation: fadeInLeft;
+    animation-duration: 2s;
+    
 }
-
 .home-quote {
     color: white;
     position: absolute;
@@ -53,7 +54,9 @@ a {
     text-align: right;
     margin-top: 12%;
     margin-left: 7%;
-}
+    animation: fadeInLeft;
+    animation-duration: 2s;
+} 
 
 .home-quote-span {
     font-size: 15px;
@@ -67,6 +70,8 @@ a {
     margin-left: 18%;
     display: block;
     object-fit: cover;
+    animation: fadeInUp;
+    animation-duration: 2s;
 }
 
 .home-image-2 {
@@ -76,6 +81,8 @@ a {
     margin-left: 20%;
     display: block;
     object-fit: cover;
+    animation: fadeIn;
+    animation-duration: 2s;
 }
 
 .home-image-3 {
@@ -84,7 +91,8 @@ a {
     margin-left: 13%;
     display: block;
     object-fit: cover;
-
+    animation: fadeInDown;
+    animation-duration: 2s;
 }
 
 /*END OF HOME SECTION*/
@@ -100,6 +108,9 @@ a {
     position: absolute;
     margin-top: 9%;
     font-size: 35px;
+    animation: fadeIn;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-duration: 3s;
 }
 
 .about-image-1 {
@@ -578,6 +589,9 @@ a {
     margin-left: 30%;
     width: 40%;
     font-size: 13px;
+    animation: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .btn-primary:hover {
