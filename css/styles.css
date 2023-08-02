@@ -33,7 +33,7 @@ a {
 .home {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
+    height: 100vh;
 }
 
 .home-heading {
@@ -63,7 +63,7 @@ a {
 .home-image-1 {
     height: 440px;
     width: 353px;
-    margin-top: 54%;
+    margin-top: 53%;
     margin-left: 18%;
     display: block;
     object-fit: cover;
@@ -91,6 +91,7 @@ a {
 /* ABOUT */
 .about {
     display: flex;
+    height: 100vh;
 }
 
 .about-heading {
@@ -175,6 +176,7 @@ a {
 /* ARTWORKS SECTION 1*/
 .artworks {
     display: flex;
+    height: 100vh;
 }
 
 .artworks-carousel {
@@ -249,17 +251,19 @@ a {
 }
 
 /*END OF ARTWORKS SECTION 1*/
-.artworks-2{
-    display: flex;
+.artworks-2 {
+    display: grid;
+    height: 100vh;
 }
+
 .artworks-4 {
-    position: absolute;
+    position: relative;
     width: 305px;
-    margin-left: 4%;
+    margin-left: 5%;
     margin-top: 2%;
 }
 
-.artworks-image-4{
+.artworks-image-4 {
     opacity: 1;
     display: block;
     /* width: 50px; */
@@ -295,6 +299,7 @@ a {
     width: 175px;
     text-align: right;
 }
+
 .artworks-5 {
     position: absolute;
     width: 600px;
@@ -302,7 +307,7 @@ a {
     margin-top: 2%;
 }
 
-.artworks-image-5{
+.artworks-image-5 {
     opacity: 1;
     display: block;
     /* width: 50px; */
@@ -338,14 +343,15 @@ a {
     width: 187px;
     text-align: right;
 }
+
 .artworks-6 {
     position: absolute;
     width: 400px;
-    margin-left: 69%;
+    margin-left: 68%;
     margin-top: 2%;
 }
 
-.artworks-image-6{
+.artworks-image-6 {
     opacity: 1;
     display: block;
     /* width: 50px; */
@@ -381,6 +387,7 @@ a {
     width: 155px;
     text-align: right;
 }
+
 .artworks-7 {
     position: absolute;
     width: 450px;
@@ -390,7 +397,7 @@ a {
     margin-bottom: 5%;
 }
 
-.artworks-image-7{
+.artworks-image-7 {
     opacity: 1;
     display: block;
     /* width: 50px; */
@@ -426,6 +433,7 @@ a {
     width: 218px;
     text-align: right;
 }
+
 .artworks-8 {
     position: absolute;
     width: 500px;
@@ -435,7 +443,7 @@ a {
     margin-bottom: 5%;
 }
 
-.artworks-image-8{
+.artworks-image-8 {
     opacity: 1;
     display: block;
     /* width: 50px; */
@@ -471,16 +479,17 @@ a {
     width: 170px;
     text-align: right;
 }
+
 .artworks-9 {
-    position: absolute;
+    position: relative;
     width: 330px;
     margin-left: 4%;
-    margin-top: 29%;
+    margin-top: 1%;
     padding-bottom: 2%;
     margin-bottom: 5%;
 }
 
-.artworks-image-9{
+.artworks-image-9 {
     opacity: 1;
     display: block;
     /* width: 50px; */
@@ -516,25 +525,72 @@ a {
     width: 180px;
     text-align: right;
 }
+
 /*END OF ARTWORKS SECTION*/
 /*LOCATIONS SECTION*/
-.locations{
-    display:flex;
+.locations {
+    display: grid;
+    height: 100vh;
 }
-.locations-heading{
+
+.locations-heading {
     color: white;
     font-size: 35px;
     position: absolute;
-    margin-top: 50%;
-    margin-left: 47%;
+    margin-top: 11%;
+    margin-left: 46%;
 }
-.locations-heading-2{
+
+.locations-heading-2 {
     color: white;
     position: absolute;
-    margin-top: 55%;
-    margin-left: 37%;
+    margin-top: 15%;
+    margin-left: 36%;
     text-align: center;
 }
-.card{
-    margin-top: 60%;
+.card {
+    background-color: black;
 }
+.card-group {
+    position: relative;
+    margin-top: 18%;
+    width: 1519px;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.card-title {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card-text {
+    color: white;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: rgb(71, 70, 70);
+    border-color: azure;
+    margin-left: 30%;
+    width: 40%;
+    font-size: 13px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(56, 55, 55);
+    border-color: azure;
+}
+
+
+/*END OF LOCATIONS SECTION*/
+/*FOOTER SECTION*/
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+/*END OF ALL*/
