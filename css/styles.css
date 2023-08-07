@@ -288,7 +288,6 @@ a {
 .artworks-image-4 {
     opacity: 1;
     display: block;
-    /* width: 50px; */
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -332,7 +331,6 @@ a {
 .artworks-image-5 {
     opacity: 1;
     display: block;
-    /* width: 50px; */
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -376,7 +374,6 @@ a {
 .artworks-image-6 {
     opacity: 1;
     display: block;
-    /* width: 50px; */
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -422,7 +419,6 @@ a {
 .artworks-image-7 {
     opacity: 1;
     display: block;
-    /* width: 50px; */
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -468,7 +464,6 @@ a {
 .artworks-image-8 {
     opacity: 1;
     display: block;
-    /* width: 50px; */
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -514,7 +509,6 @@ a {
 .artworks-image-9 {
     opacity: 1;
     display: block;
-    /* width: 50px; */
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -629,7 +623,7 @@ footer p {
     padding-top: 2%;
 }
 
-/*END OF ALL*/
+/*END OF DESKTOP*/
 
 /* MEDIA QUERY HOME SECTION */
 @media only screen and (max-width: 600px) {
@@ -851,7 +845,6 @@ footer p {
     .artworks-mobile-image-5 {
         opacity: 1;
         display: block;
-        /* width: 50px; */
         height: auto;
         transition: .5s ease;
         backface-visibility: hidden;
@@ -894,7 +887,6 @@ footer p {
     .artworks-mobile-image-6 {
         opacity: 1;
         display: block;
-        /* width: 50px; */
         height: auto;
         transition: .5s ease;
         backface-visibility: hidden;
@@ -937,7 +929,6 @@ footer p {
     .artworks-mobile-image-7 {
         opacity: 1;
         display: block;
-        /* width: 50px; */
         height: auto;
         transition: .5s ease;
         backface-visibility: hidden;
@@ -1008,3 +999,5 @@ footer p {
         position: relative;
     }
 }
+
+/* END OF ALL */
