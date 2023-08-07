@@ -271,6 +271,10 @@ a {
     font-size: 16px;
 }
 
+.famous-artworks{
+    display: none;
+}
+
 /*END OF ARTWORKS SECTION 1*/
 /*ARTWORKS SECTION 2*/
 .artworks-2 {
