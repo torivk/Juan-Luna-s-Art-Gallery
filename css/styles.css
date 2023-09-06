@@ -6,6 +6,7 @@
 
 body {
     background-color: black !important;
+    font-family: 'Jacques Francois', serif;
 }
 
 a {
@@ -321,7 +322,7 @@ a {
     font-size: 16px;
     padding: 16px 16px;
     border-radius: 10px;
-    width: 175px;
+    width: 155px;
     text-align: right;
 }
 
@@ -364,7 +365,7 @@ a {
     font-size: 16px;
     padding: 16px 16px;
     border-radius: 10px;
-    width: 187px;
+    width: 170px;
     text-align: right;
 }
 
@@ -407,7 +408,7 @@ a {
     font-size: 16px;
     padding: 16px 16px;
     border-radius: 10px;
-    width: 155px;
+    width: 140px;
     text-align: right;
 }
 
@@ -452,7 +453,7 @@ a {
     font-size: 16px;
     padding: 16px 16px;
     border-radius: 10px;
-    width: 218px;
+    width: 190px;
     text-align: right;
 }
 
@@ -497,7 +498,7 @@ a {
     font-size: 16px;
     padding: 16px 16px;
     border-radius: 10px;
-    width: 170px;
+    width: 150px;
     text-align: right;
 }
 
@@ -542,7 +543,7 @@ a {
     font-size: 16px;
     padding: 16px 16px;
     border-radius: 10px;
-    width: 180px;
+    width: 160px;
     text-align: right;
 }
 
